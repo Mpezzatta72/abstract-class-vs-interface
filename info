@@ -1,0 +1,11 @@
+Abstract class	Interface
+Inheritance
+An abstract class can inherit only one class but it can inherit any number of interfaces.	An interface cannot inherit classes, but it can inherit any number of interfaces.
+Abstract methods
+An abstract class can contain abstract methods. But it may not have any at all.	All of an interface's non-static and non-default methods are abstract, i.e. they have no implementation. An interface can have no methods at all.
+Methods with an implementation
+An abstract class can contain methods with an implementation.	An interface may have default methods.
+Data
+No restrictions.	An interface contains only public final static data.
+Object creation
+You cannot create an instance of an abstract class.	You cannot create an instance of an interface.
